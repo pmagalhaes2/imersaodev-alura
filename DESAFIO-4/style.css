@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://i.pinimg.com/originals/07/46/f7/0746f721b31fd57f3b6ed8fb8d0be082.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  .movies {
+      background-color: rgba(255, 255, 255, 0.205);
+      color: #ffffff;
+      width: 94vw;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 25px;
+      font-weight: bold;    
+    }
+  
+    .catalog {
+        color: white;
+        margin: 0;
+        padding: 5px;
+        border: 0;
+        width: 182px;
+        height: 330px;
+        display: inline-block;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font-weight: bold;
+    }
+  
+  .catalog img {
+    margin: 0 10px;
+    padding: 10px 0 10px 0;
+    width: 182px;
+    height: 268px;
+    display: inline-block;
+  }
